@@ -4,17 +4,12 @@ import random
 st.title("🎨 Auction Guess Game")
 
 # --- Kunstwerke mit Name, Künstler, Preis und Bild-URL ---
+# Beispiel für funktionierende Platzhalterbilder
 kunstwerke = [
-    {"name": "Mona Lisa", "artist": "Leonardo da Vinci", "price": 780000000, "img": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mona_Lisa.jpg"},
-    {"name": "Starry Night", "artist": "Vincent van Gogh", "price": 100000000, "img": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"},
-    {"name": "The Scream", "artist": "Edvard Munch", "price": 120000000, "img": "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg"},
-    {"name": "Girl with a Pearl Earring", "artist": "Johannes Vermeer", "price": 74000000, "img": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Meisje_met_de_parel.jpg"},
-    {"name": "Guernica", "artist": "Pablo Picasso", "price": 200000000, "img": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg"},
-    {"name": "The Persistence of Memory", "artist": "Salvador Dalí", "price": 55000000, "img": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg"},
-    {"name": "American Gothic", "artist": "Grant Wood", "price": 6000000, "img": "https://upload.wikimedia.org/wikipedia/commons/7/76/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg"},
-    {"name": "The Night Watch", "artist": "Rembrandt", "price": 500000000, "img": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Rembrandt_Harmensz._van_Rijn_-_De_Nachtwacht.jpg"},
-    {"name": "Water Lilies", "artist": "Claude Monet", "price": 80000000, "img": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg"},
-    {"name": "The Kiss", "artist": "Gustav Klimt", "price": 90000000, "img": "https://upload.wikimedia.org/wikipedia/commons/7/73/Gustav_Klimt_016.jpg"},
+    {"name": "Mona Lisa", "artist": "Leonardo da Vinci", "price": 780000000, "img": "https://picsum.photos/id/1011/600/400"},
+    {"name": "Starry Night", "artist": "Vincent van Gogh", "price": 100000000, "img": "https://picsum.photos/id/1012/600/400"},
+    {"name": "The Scream", "artist": "Edvard Munch", "price": 120000000, "img": "https://picsum.photos/id/1013/600/400"},
+    {"name": "Girl with a Pearl Earring", "artist": "Johannes Vermeer", "price": 74000000, "img": "https://picsum.photos/id/1014/600/400"},
 ]
 
 TOTAL_ROUNDS = 10
