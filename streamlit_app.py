@@ -5,12 +5,22 @@ st.title("🎨 Auction Guess Game")
 
 # --- Kunstwerke mit Name, Künstler, Preis und Bild-URL ---
 # Beispiel für funktionierende Platzhalterbilder
+TOTAL_ROUNDS = 10
+
+# mindestens 10 Kunstwerke in der Liste
 kunstwerke = [
     {"name": "Mona Lisa", "artist": "Leonardo da Vinci", "price": 780000000, "img": "https://picsum.photos/id/1011/600/400"},
     {"name": "Starry Night", "artist": "Vincent van Gogh", "price": 100000000, "img": "https://picsum.photos/id/1012/600/400"},
     {"name": "The Scream", "artist": "Edvard Munch", "price": 120000000, "img": "https://picsum.photos/id/1013/600/400"},
     {"name": "Girl with a Pearl Earring", "artist": "Johannes Vermeer", "price": 74000000, "img": "https://picsum.photos/id/1014/600/400"},
+    {"name": "Guernica", "artist": "Pablo Picasso", "price": 200000000, "img": "https://picsum.photos/id/1015/600/400"},
+    {"name": "The Persistence of Memory", "artist": "Salvador Dalí", "price": 55000000, "img": "https://picsum.photos/id/1016/600/400"},
+    {"name": "American Gothic", "artist": "Grant Wood", "price": 6000000, "img": "https://picsum.photos/id/1017/600/400"},
+    {"name": "The Night Watch", "artist": "Rembrandt", "price": 500000000, "img": "https://picsum.photos/id/1018/600/400"},
+    {"name": "Water Lilies", "artist": "Claude Monet", "price": 80000000, "img": "https://picsum.photos/id/1019/600/400"},
+    {"name": "The Kiss", "artist": "Gustav Klimt", "price": 90000000, "img": "https://picsum.photos/id/1020/600/400"},
 ]
+
 
 TOTAL_ROUNDS = 10
 
